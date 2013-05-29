@@ -1,7 +1,92 @@
-<!DOCTYPE html><meta charset="utf-8"><title>Signshop Helper</title>
-<link rel=canonical href="http://signshophelper.com">
-<META http-equiv=refresh content="0;URL=http://signshophelper.com">
-<meta http-equiv="X-UA-Compatible" content="chrome=1">
-<script>window.location="http://signshophelper.com"</script>
-<style>html,body,iframe{width:100%;height:100%;border:none;margin:0;padding:0}</style>
-<iframe src="http://signshophelper.com"></iframe>
+<!doctype html>
+<style>
+@font-face {
+	font-family: 'social';
+	src:url('fonts/social.eot');
+}
+@font-face {
+	font-family: 'social';
+	src: url(data:application/x-font-woff;charset=utf-8;base64,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) format('woff'),
+		 url(data:application/x-font-ttf;charset=utf-8;base64,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) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+*{box-sizing:border-box;position:relative}
+*:before,*:after{content:""}
+
+body{margin:0;font-family: ubuntu;line-height:1.5;color:#333;background:#eee;}
+
+/*colors*/
+h1:before,.squigly,.squigly:before,.squigly:after,.antisquigly:before{background:#d40000}
+header,body,.antisquigly{background:#eee}
+
+h1{background:#fff;}
+
+/*crazy css*/
+header{width:100%;overflow:hidden;white-space:nowrap;margin-top:1rem;}
+header>*{display:inline-block;vertical-align:top;margin:0}
+header>*:before,header>*:after{position:absolute;width:100%;height:50%}
+
+h1{padding:.7rem 1rem;border-top-right-radius:1rem;top:1.5rem;z-index:2}
+h1{margin-top:-.3em;}
+h1:before{height:1rem;top:-1rem;left:0;}
+
+.squigly{height:5.3rem;width:15rem;border-radius:1rem;z-index:1}
+.squigly:before{right:1rem;top:0}
+.squigly:after{left:1rem;bottom:0}
+
+.antisquigly{height:4.3rem;width:100%;border-bottom-left-radius:1rem;z-index:1}
+.antisquigly:before{height:1rem;bottom:-1rem;left:0}
+
+
+article{max-width:30em;position:absolute;top:0;right:9em;padding:1em;z-index:2;}
+a{text-decoration:none;transition:color .3s;color:inherit;}
+a:hover{color:#d40000;}
+section{width:33.33%;padding:1em;display:inline-block;vertical-align:top;line-height:0}
+img,article{vertical-align:middle;}
+body>img{background:#bbb;padding:2rem;border-bottom-right-radius:1rem;margin-bottom:4em;}
+.content{padding:1em;background:#fff;margin-top:-1em;padding-top:2em;min-height:1000px}
+address{font-family:social;font-style:normal;letter-spacing:1em;padding-top:.5em;}
+figure{overflow:hidden;margin:0;width:100%;padding-top:70%;background:#fff;border:none;box-shadow:0 1px 5px rgba(0,0,0,.3)}
+figure img{width:100%;position:absolute;top:0;left:0;border:none;}
+
+@media (max-width:1140px){
+	.squigly,h1:before{display:none}
+}
+@media (max-width:905px){
+	article{position:relative;right:0;left:1em;}
+	body>img{margin-bottom:1em;}
+	header{margin:0;}
+}
+</style>
+
+<img src="logo.svg"><article><!-- 
+-->Graphik-link is all about design and graphics. We offer different designing for all businesses that need:
+<ul>
+	<li>vector art designs
+	<li>vehicle templates
+	<li>sign elements, logos
+	<li>web page designing, programing
+	<li>digital imaging
+</ul>
+Visit our sites and see why it is the<br>LINK TO ALL YOUR GRAPHIK NEEDS.
+
+
+
+
+<address><a href="mailto:info@graphik-link.com">m</a><a href="https://www.facebook.com/robert.malo.902">f</a><!--<a>t</a>--><a href="tel:+15148294418">p</a></address></article>
+
+<header><h1>Featured Sites:</h1><div class=squigly></div><div class=antisquigly></div></header>
+
+
+<div class=content><!-- 
+--><section><!-- 
+	--><a href="http://signshophelper.com" target="_blank"><figure><img src="http://farm8.staticflickr.com/7288/8738401405_24c69e385b_b.jpg"></figure></a><!-- 
+--></section><!-- 
+--><section><!-- 
+	--><a href="http://maloweb.com" target="_blank"><figure><img src="http://farm8.staticflickr.com/7285/8739522022_2f1fd5c209_b.jpg"></figure></a><!-- 
+--></section><!-- 
+--><section><!-- 
+	--><a href="http://tdi-imaging.com" target="_blank"><figure><img src="http://farm8.staticflickr.com/7281/8739521998_5ea3613a10_b.jpg"></figure></a><!-- 
+--></section><!-- 
+--></div></section>
